@@ -132,13 +132,18 @@ body {
 }
 
 .check-btn {
-    background: linear-gradient(135deg, #40c057, #2b8a3e);
+    background: linear-gradient(135deg, #4dabf7, #228be6);
     border: none;
 }
 
 .check-btn:hover {
-    background: linear-gradient(135deg, #2b8a3e, #237032);
+    background: linear-gradient(135deg, #228be6, #1971c2);
     transform: translateY(-2px);
+}
+
+.form-control::-webkit-file-upload-button{
+    background: linear-gradient(135deg, #4dabf7, #228be6);
+    color: white;
 }
 
 /* Right Panel Styles */
@@ -162,15 +167,6 @@ body {
     letter-spacing: 1px;
     animation: glow 2s ease-in-out infinite alternate;
 }
-
-/* @keyframes glow {
-    from {
-        text-shadow: 0 0 5px #4dabf7, 0 0 10px #4dabf7;
-    }
-    to {
-        text-shadow: 0 0 10px #4dabf7, 0 0 20px #4dabf7, 0 0 30px #228be6;
-    }
-} */
 
 .company-slogan {
     font-size: 1.2rem;
